@@ -2,12 +2,12 @@
 Summary:	An icon bar for GNOME
 Summary(pl):	Pasek na ikony dla GNOME
 Name:		gDesklets-%{pname}
-Version:	0.11
-Release:	2
+Version:	0.12
+Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.pycage.de/download/gdesklets/starterbar-desklet-%{version}.tar.bz2
-# Source0-md5:	4a9143a5d24d78f5fd1d9a5c7a72c2b8
+# Source0-md5:	c16f81895ed65bf43d2f07c9e97b358d
 URL:		http://www.pycage.de/software_gdesklets.html
 Buildrequires:	python >= 2.3
 BuildRequires:	python-pygtk >= 1.99.14
