@@ -1,6 +1,6 @@
 %define	pname	StarterBar
 %define	pver	0_1
-Summary:	 An icon bar for GNOME
+Summary:	An icon bar for GNOME
 Summary(pl):	Pasek na ikony dla GNOME
 Name:		gDesklets-%{pname}
 Version:	0.1
@@ -15,10 +15,12 @@ Requires:	gDesklets
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-An icon bar for GNOME. You can do the same with the GNOME panel, but this one is pure eye candy.
+An icon bar for GNOME. You can do the same with the GNOME panel, but
+this one is pure eye candy.
 
 %description -l pl
-Pasek na ikony dla GNOME. Takie mo¿liwo¶ci ma tak¿e panel GNOME, ale ten jest mi³y dla oka.
+Pasek na ikony dla GNOME. Takie mo¿liwo¶ci ma tak¿e panel GNOME, ale
+ten jest mi³y dla oka.
 
 %prep
 %setup -q -n %{pname}
