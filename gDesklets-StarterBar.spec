@@ -9,7 +9,7 @@ Group:		X11/Applications
 Source0:	starterbar-desklet-%{version}.tar.bz2
 # Source0-md5:	061f147e979dff9860025bfc6c48de9a
 URL:		http://www.pycage.de/software_gdesklets.html
-Buildrequires:	python >= 2.3
+BuildRequires:	python >= 2.3
 BuildRequires:	python-pygtk >= 1.99.14
 Requires:	gDesklets >= 0.22
 Provides:	gDesklets-display
