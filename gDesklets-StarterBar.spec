@@ -18,8 +18,8 @@ Provides:	gDesklets-display
 Provides:	gDesklets-sensor
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_sensorsdir	%{_datadir}/gdesklets/Sensors
-%define		_displaysdir	%{_datadir}/gdesklets/Displays
+%define		_sensorsdir	%{_libdir}/gdesklets/Sensors
+%define		_displaysdir	%{_libdir}/gdesklets/Displays
 
 %description
 An icon bar for GNOME. You can do the same with the GNOME panel, but
@@ -44,7 +44,7 @@ cp -R gfx *.display $RPM_BUILD_ROOT%{_displaysdir}/%{pname}
 %py_comp $RPM_BUILD_ROOT%{_sensorsdir}
 %py_ocomp $RPM_BUILD_ROOT%{_sensorsdir}
 
-rm -f $RPM_BUILD_ROOT%{_sensorsdir}/*/*.py
+#rm -f $RPM_BUILD_ROOT%{_sensorsdir}/*/*.py
 
 %clean
 rm -rf $RPM_BUILD_ROOT
