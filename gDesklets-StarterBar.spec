@@ -1,6 +1,6 @@
 %define		pname	StarterBar
 Summary:	An icon bar for GNOME
-Summary(pl.UTF-8):   Pasek na ikony dla GNOME
+Summary(pl.UTF-8):	Pasek na ikony dla GNOME
 Name:		gDesklets-%{pname}
 Version:	0.31.3
 Release:	1
